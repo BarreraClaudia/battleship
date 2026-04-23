@@ -1,13 +1,35 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Webpack App</title>
-    <link rel="icon" type="img/png" href="./assets/imgs/icon.png" />
-  </head>
 
-  <body>
-    <h1>Webpack App</h1>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <title>Battleship</title>
+</head>
+
+<body>
+  <header>
+    <h1>Battleship</h1>
+  </header>
+
+  <main>
+    <section class="board-section">
+      <h2>Your Fleet</h2>
+      <div id="human-board"></div>
+    </section>
+
+    <section class="controls">
+      <p id="placement-info"></p>
+      <button id="toggle-direction">Rotate Ship</button>
+      <button id="restart">Restart</button>
+    </section>
+
+    <section class="board-section">
+      <h2>Enemy Waters</h2>
+      <div id="computer-board"></div>
+    </section>
+  </main>
+</body>
+
 </html>

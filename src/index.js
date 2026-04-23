@@ -1,10 +1,4 @@
 import './styles/styles.css';
-import { greeting } from './modules/greeting.js';
-import iconSrc from './assets/imgs/icon.png';
+import { initGame } from './modules/UI.js';
 
-console.log(greeting);
-
-const icon = document.createElement('img');
-icon.src = iconSrc;
-
-document.body.appendChild(icon);
+initGame();
